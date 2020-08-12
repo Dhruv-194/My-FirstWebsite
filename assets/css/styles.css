@@ -1,5 +1,123 @@
 
 .about-me {
   text-align: center;
+
+box-shadow:  -33px 33px 30px #466b38, 
+             33px -33px 30px #e2ffb6;
 }
 
+.wow{
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+.wowe{
+font-family: 'Work Sans', sans-serif;
+
+}
+
+.imagecard{
+text-align: center;
+
+
+box-shadow:  -33px 33px 30px #466b38;
+}
+
+.sports{
+border-radius: 96px;
+box-shadow:  33px 33px 30px #466b38; 
+             
+}
+
+.games{
+border-radius: 96px;
+
+box-shadow:  33px 33px 30px #466b38; 
+}
+
+.prog{
+border-radius: 96px;
+box-shadow:  33px 33px 30px #466b38; 
+}
+
+
+.skills-column{
+  padding:20px;
+}
+
+.imagecol{
+  padding:20px;
+}
+
+/* JUMBOTRON STYLE HERE */
+.jumbotron {
+  position: relative;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+  z-index: 1;
+ 
+}
+
+.jumbotron::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image:  linear-gradient(225deg, #08AEEA 0%, #2AF598 64%);
+  z-index: -1;
+  transition: opacity 0.5s linear;
+  opacity: 0;
+}
+
+.jumbotron:hover::before {
+  opacity: 1;
+}
+
+.btn-lg{
+  border-color: white;
+  color:white;
+  background-color:transparent;
+}
+
+.btn-lg:hover{ 
+  border-color: transparent;
+  color:black;
+  background-color:white;
+}
+
+.btn-lg:active{ 
+  border-color: transparent;
+  color:black;
+  background-color:white;
+  padding:9px 20px 9px 20px;
+}
+
+body {
+background: #A1FFCE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pro1{
+border-radius: 25px;
+background: #f1fbc1;
+box-shadow:  -29px -29px 28px #74785d;
+}
+
+.card-footer{
+  text-align: center;
+}
+
+.sendm{
+   border-color: black;
+  color:green;
+  background-color:transparent;
+}
+
+.sendm:hover{
+  border-color: transparent;
+  color:white;
+  background-color:greenyellow;
+  padding:9px 20px 9px 20px
+}
