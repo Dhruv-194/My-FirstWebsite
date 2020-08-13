@@ -1,6 +1,6 @@
 # My Portfolio Website :
 
-This is my first front-end website which I have built to tell the community about me and showcase my projects. 
+This repository has the source code of my first front-end website which I have built to tell the community about me and showcase my projects. All in all this is my portfolio website. No third-party plugins or templates were used in making of this website.
 
 ## Tech-stack used :
 
